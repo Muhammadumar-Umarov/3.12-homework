@@ -72,5 +72,73 @@
 
 // 3-question
 {
-    
+    //FOR
+    let arr = ["Sarvar", "Murod", "Salim"]
+    let newArr = []
+    let i = 0
+
+    for(; i < arr.length; i++){
+        newArr[i] = arr[i] + "xon"
+    }
+    // console.log(newArr);
+
+
+    // WHILE
+    while(i < arr.length){
+        newArr[i] = arr[i] + "xon"
+        i++
+    }
+    // console.log(newArr);
+
+
+    // DO-WHILE
+    do {
+        // console.log(newArr);
+        newArr[i] = arr[i] + "xon"
+        i++
+    } while (i < arr.length);
+}
+
+// 4-question
+{
+    //FOR
+    let arr = [true,false,true]
+    let newArr = []
+    let i = 0
+
+    for(; i < arr.length; i++){
+        if(arr[i]){
+            newArr[i] = "Ha"
+        }
+        else{
+            newArr[i] = "Yoq"
+        }
+    }
+    // console.log(newArr);
+
+
+    //WHILE
+    while(i < arr.length){
+        if(arr[i]){
+            newArr[i] = "Ha"
+        }
+        else{
+            newArr[i] = "Yoq"
+        }
+        i++
+    }
+    // console.log(newArr);
+
+
+    // DO-WHILE
+    do {
+        console.log(newArr);
+        if(arr[i]){
+            newArr[i] = "Ha"
+        }
+        else{
+            newArr[i] = "Yoq"
+        }
+        i++
+    } while (i < arr.length);
 }
